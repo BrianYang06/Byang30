@@ -17,6 +17,6 @@ Include the following at the top of your `README.md`, in the format shown below:
 
 -------------------
 
-# FRIST LSAT
+# Brian Yang
 ## Workshop
 ### SoftDev 2022-2023
