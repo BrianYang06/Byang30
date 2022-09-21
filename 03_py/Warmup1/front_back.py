@@ -1,3 +1,4 @@
+#Returns the string with its first letter swapped with its last letter as long as the length is greater than 1
 def front_back(str):
   if len(str) > 1:
    return str[len(str)-1] + str[1:len(str) -1] + str[0]
