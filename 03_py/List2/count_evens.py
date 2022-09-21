@@ -1,3 +1,4 @@
+#Using a for loop and an if function to track and count even nums in the list
 def count_evens(nums):
   a = 0
   for i in nums:

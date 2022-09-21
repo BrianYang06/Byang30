@@ -1,3 +1,4 @@
+#Using a for loop and boolean to track if it should be added together or not
 def sum67(nums):
   count = True
   total = 0

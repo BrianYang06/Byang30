@@ -1,3 +1,4 @@
+#Using a while loop to add all the numbers up except when theres a 13
 def sum13(nums):
   i = 0
   total = 0
