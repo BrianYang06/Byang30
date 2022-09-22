@@ -4,3 +4,9 @@ def not_string(str):
     return str
   else:
     return 'not ' + str
+
+print("not_string('candy'):",not_string('candy'))
+print("not_string('x'):",not_string('x'))
+print("not_string('not bad'):",not_string('not bad'))
+print("not_string('bad'):",not_string('bad'))
+print("not_string('not'):",not_string('not'))

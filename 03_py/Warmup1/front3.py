@@ -8,5 +8,10 @@ def front3(str):
     x = len(str)
     for i in range(2):
       str += str[0:x]
-
   return str
+
+print("front3('Java'):",front3('Java'))
+print("front3('Chocolate'):",front3('Chocolate'))
+print("front3('abc'):",front3('abc'))
+print("front3('abcXYZ'):",front3('abcXYZ'))
+print("front3('ab'):",front3('ab'))

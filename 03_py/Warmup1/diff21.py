@@ -4,3 +4,9 @@ def diff21(n):
     return abs((n-21))
   else:
     return abs(2*(n-21))
+
+print('diff21(19):',diff21(19))
+print('diff21(10):',diff21(10))
+print('diff21(21):',diff21(21))
+print('diff21(22):',diff21(22))
+print('diff21(25):',diff21(25))

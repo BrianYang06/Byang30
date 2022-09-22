@@ -4,3 +4,9 @@ def front_back(str):
    return str[len(str)-1] + str[1:len(str) -1] + str[0]
   else:
     return str
+
+print("front_back('code'):",front_back('code'))
+print("front_back('a'):",front_back('a'))
+print("front_back('ab'):",front_back('ab'))
+print("front_back('abc'):",front_back('abc'))
+print("front_back(''):",front_back(''))
