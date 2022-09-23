@@ -9,6 +9,23 @@ QCC: Can you randomly select a number from a list of values rather than a range 
 OPS Summary: We tested how dictionary worked and how you can apply a random element to it.
 """
 import random as rng
-x = rng.randrange(1,5)
-krewes = {1:[3,7],2:[8,4],3:[4,5,4,3,3,8],4:[1,1,1,4]}
-print(krewes[x])
+z = rng.randrange(1,5)
+listPeriods = [2,7,8]
+krewes = {
+           2:["NICHOLAS", "ANTHONY", "BRIAN", "SAMUEL", "JULIA", "YUSHA", "CRAIG", "FANG MIN", "JEFF", "KONSTANTIN", "AARON", "VIVIAN", "AYMAN", "TALIA", "FAIZA", "ZIYING", "YUK KWAN", "DANIEL", "WEICHEN", "MAYA", "ELIZABETH", "ANDREW", "VANSH", "JONATHAN", "ABID", "WILLIAM", "HUI", "ANSON", "KEVIN", "DANIEL", "IVAN", "JASMINE", "JEFFREY", "Ruiwen"],
+           7:["DIANA", "DAVID", "SAM", "PRATTAY", "ANNA", "JING YI", "ADEN", "EMERSON", "RUSSELL", "JACOB", "WILLIAM", "NADA", "SAMANTHA", "IAN", "MARC", "ANJINI", "JEREMY", "LAUREN", "KEVIN", "RAVINDRA", "SADI", "EMILY", "GITAE", "MAY", "MAHIR", "VIVIAN", "GABRIEL", "BRIANNA", "JUN HONG", "JOSEPH", "MATTHEW", "JAMES", "THOMAS", "NICOLE", "Karen"],
+           8:["ALEKSANDRA", "NAKIB", "AMEER", "HENRY", "DONALD", "YAT LONG", "SEBASTIAN", "DAVID", "YUKI", "SHAFIUL", "DANIEL", "SELENA", "JOSEPH", "SHINJI", "RYAN", "APRIL", "ERICA", "JIAN HONG", "VERIT", "JOSHUA", "WILSON", "AAHAN", "GORDON", "JUSTIN", "MAYA", "FAIYAZ", "SHREYA", "ERIC", "JEFFERY", "BRIAN", "KEVIN", "SAMSON", "BRIAN", "HARRY", "CORINA", "Wanying", "Kevin"]
+         }
+#input = input("Select class period:")
+period = rng.choice(listPeriods)
+x = int(period)
+#print(rng.choice(krewes[x]) + ' from period ' + str(period))
+
+input = input("Choose a class (YES/NO):")
+
+if input.eq('YES'):
+    choosePeriod = int(input("Choose period:"))
+    #choosex = int(choosePeriod)
+    #print(rng.choice(krewes[choosePeriod]))
+elif input == 'NO':
+    print(rng.choice(krewes[x]), 'from period', str(period))
