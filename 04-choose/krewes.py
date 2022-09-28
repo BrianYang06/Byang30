@@ -9,7 +9,6 @@ QCC: Can you randomly select a number from a list of values rather than a range 
 OPS Summary: We tested how dictionary worked and how you can apply a random element to it.
 """
 import random as rng
-z = rng.randrange(1,5)
 listPeriods = [2,7,8]
 krewes = {
            2:["NICHOLAS", "ANTHONY", "BRIAN", "SAMUEL", "JULIA", "YUSHA", "CRAIG", "FANG MIN", "JEFF", "KONSTANTIN", "AARON", "VIVIAN", "AYMAN", "TALIA", "FAIZA", "ZIYING", "YUK KWAN", "DANIEL", "WEICHEN", "MAYA", "ELIZABETH", "ANDREW", "VANSH", "JONATHAN", "ABID", "WILLIAM", "HUI", "ANSON", "KEVIN", "DANIEL", "IVAN", "JASMINE", "JEFFREY", "Ruiwen"],
@@ -18,14 +17,12 @@ krewes = {
          }
 #input = input("Select class period:")
 period = rng.choice(listPeriods)
-x = int(period)
 #print(rng.choice(krewes[x]) + ' from period ' + str(period))
 
-input = input("Choose a class (YES/NO):")
-
-if input.eq('YES'):
-    choosePeriod = int(input("Choose period:"))
-    #choosex = int(choosePeriod)
-    #print(rng.choice(krewes[choosePeriod]))
-elif input == 'NO':
-    print(rng.choice(krewes[x]), 'from period', str(period))
+response,periodNum = input("Choose a class (YES Class#/NO):").split()
+if response == 'YES':
+    for i in listPeriods:
+        if i == int(periodNum):
+            print(rng.choice(krewes[int(periodNum)]),'from period', periodNum)
+elif response == 'NO':
+    print(rng.choice(krewes[period]), 'from period', str(period))
