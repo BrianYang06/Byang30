@@ -19,15 +19,19 @@ app.run()  # Q5: Where have you seen similar constructs in other languages? Proc
 
 
 '''
-DISCO: 
+DISCO:
+- "No hablo queso!" is printed but pring(__name__) isnt shown
+- You have to open localhost:5000 to see the program run
+- function hello_world is automatically used even through its never called
+- If you remove app.run() you cannot connect to localhost:5000
 
 QCC:
-0.
-1.
-2.
-3.
-4.
-5.
+0. What does @app.route("/") do?
+1. Why is the return statement shown but not the print statement?
+2. Why is function hello_world used when its never called?
+3. What does __name__ in app = Flask(__name__) do?
+4. Where does print(__name__) print to?
+5. What's the difference between keyword from and import?
 ...
 
 INVESTIGATIVE APPROACH:
