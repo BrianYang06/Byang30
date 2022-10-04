@@ -1,9 +1,9 @@
 '''
 Brian Yang & Harry Zhu
 SoftDev
-k07 --
+k07 -- Teardown/Flask package/
 2022-10-03
-time spent:
+time spent: .30 hrs
 '''
 
 from flask import Flask
