@@ -6,6 +6,7 @@ k07 -- Teardown/Flask package/
 time spent: .30 hrs
 '''
 
+
 from flask import Flask
 
 app = Flask(__name__) # Q0: Where have you seen similar syntax in other langs? Python __main__ or java constructors
@@ -17,6 +18,16 @@ def hello_world():
 
 app.run()  # Q5: Where have you seen similar constructs in other languages? Processing to run a file
 
+"""
+from flask import Flask
+app = Flask(__name__) #create instance of class Flask
+
+@app.route("/")       #assign fxn to route
+def hello_world():
+    return "No hablo queso!"
+
+app.run()
+"""
 
 '''
 DISCO:
