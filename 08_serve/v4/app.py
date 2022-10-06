@@ -14,3 +14,14 @@ def hello_world():
 if __name__ == "__main__":  # true if this file NOT imported
     app.debug = True        # enable auto-reload upon code change
     app.run()
+
+
+'''
+if __name__ == "__main__" is new but doesn't seem to change anything. Everything looks like v3
+
+if __name__ == "__main__":
+    app.debug = True
+    app.run()
+
+This code block is run twice
+'''

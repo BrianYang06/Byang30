@@ -13,3 +13,4 @@ def hello_world():
 
 app.run()
 
+#Website still shows "No hablo queso!" but if you ctrl + c it will print the print functions with the amount fo times your reloaded the browser

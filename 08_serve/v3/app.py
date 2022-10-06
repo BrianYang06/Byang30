@@ -13,3 +13,5 @@ def hello_world():
 
 app.debug = True
 app.run()
+
+#Everything is the same except console shows debugger is active and a debugger pin

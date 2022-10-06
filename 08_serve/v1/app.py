@@ -11,3 +11,4 @@ def hello_world():
 
 app.run()
 
+#It will just create a blank page with "No hablo queso!" GET favicon.ico & HTTP/1.1 
