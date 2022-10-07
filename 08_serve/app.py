@@ -40,13 +40,18 @@ def get_random_occupation():
 
         if cumulative_value > random_seed:
             return key
+        
+def make_hl(x):
+    print("x")
+    return f'https://www.google.com/search?q={x}'
 
 app = Flask(__name__) #create instance of class Flask
 
 @app.route("/")       #assign fxn to route
 def hello_world():
-    thigns = get_random_occupation()
-    return f'Brian Yang, Donald Bi, Faiyaz Rafee <br> SoftDev <br> K08 --Flask <br> 2022-10-06 <br> time spent:1hr<br> <br>{csv_to_dictionary()[0]} <br> <br> {get_random_occupation()}'
+    job = get_random_occupation()
+    hyperlink = make_hl(job)
+    return f'Dual Ducks: Brian Yang, Donald Bi, Faiyaz Rafee <br> SoftDev <br> K08 --Flask <br> 2022-10-06 <br> time spent:1hr<br> <br>{csv_to_dictionary()[0]} <br> <br> <a href="{hyperlink}"> {job} </a>'
 
 if __name__ == "__main__":  # true if this file NOT imported
     app.debug = True        # enable auto-reload upon code change
