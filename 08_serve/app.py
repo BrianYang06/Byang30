@@ -51,7 +51,7 @@ app = Flask(__name__) #create instance of class Flask
 def hello_world():
     job = get_random_occupation()
     hyperlink = make_hl(job)
-    return f'Dual Ducks: Brian Yang, Donald Bi, Faiyaz Rafee <br> SoftDev <br> K08 --Flask <br> 2022-10-06 <br> time spent:1hr<br> <br>{csv_to_dictionary()[0]} <br> <br> <a href="{hyperlink}"> {job} </a>'
+    return f'Dual Ducks: Brian Yang, Donald Bi, Faiyaz Rafee <br> SoftDev <br> K08 --Flask <br> 2022-10-06 <br> time spent: 2hr<br> <br>{csv_to_dictionary()[0]} <br> <br> <a href="{hyperlink}"> {job} </a>'
 
 if __name__ == "__main__":  # true if this file NOT imported
     app.debug = True        # enable auto-reload upon code change
