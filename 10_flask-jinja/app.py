@@ -1,6 +1,6 @@
-# Clyde 'Thluffy' Sinclair
+# Dual Ducks: Donald Bi, Faiyaz Rafee, Brian/Paul Yang
 # SoftDev
-# Oct 2022
+# Oct 13 2022
 
 from flask import Flask, render_template #Q0: What will happen if you remove render_template from this line? (log your prediction before you pull the trigger...)
 app = Flask(__name__)
