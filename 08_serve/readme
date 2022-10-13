@@ -1,0 +1,14 @@
+v1 : It will just create a blank page with "No hablo queso!" GET favicon.ico & HTTP/1.1 
+
+v2 : Website still shows "No hablo queso!" but if you ctrl + c it will print the print functions with the amount fo times your reloaded the browser
+
+v3 : Adds a debugger that allows you do save work and show that work on the webpage without rerunning the program
+
+v4 :
+if __name__ == "__main__" is new but doesn't seem to change anything. Everything looks like v3
+
+if __name__ == "__main__":
+    app.debug = True
+    app.run()
+
+This code block is run twice
