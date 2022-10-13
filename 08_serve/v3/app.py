@@ -14,4 +14,4 @@ def hello_world():
 app.debug = True
 app.run()
 
-#Everything is the same except console shows debugger is active and a debugger pin
+#Adds a debugger that allows you do save work and show that work on the webpage without rerunning the program

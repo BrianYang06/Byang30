@@ -16,7 +16,7 @@ QCC:
 """
 
 
-# Clyde 'Thluffy' Sinclair
+# Clyde 'Thluffy' Sinclaird
 # SoftDev
 # Oct 2022
 
