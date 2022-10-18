@@ -1,0 +1,41 @@
+
+body{
+background-color: grey;
+}
+
+#heading{
+color : white;
+text-align: center;
+background-color: #d3d3d3;
+font-weight: bold;
+}
+
+#main_foo_heading{
+  float: right;
+  width: 80%;
+  font-weight: bold;
+}
+
+#nav_foo_heading{
+  float: left;
+  width: 20%;
+  font-weight: bold;
+}
+
+#lorum_ipsum{
+  float: right;
+  width: 80%;
+  background-color: darkgrey;
+}
+
+#te_tings{
+  color : white;
+}
+
+.not_main_heading{
+  background-color: darkgrey;
+}
+#footer{
+  float: footer, right;
+  background-color: #63666A;
+}
