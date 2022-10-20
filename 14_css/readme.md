@@ -6,9 +6,10 @@ K14: Serving Looks
 time spent: .6  
 
 DISCO
-- Adding periods before backslash can take you back a directory 
+- Adding periods before backslash can take you back a directory
 - Able to edit console by using inspect element/Developer console
-- 
+- &nbsp adds white space in html
+- /* */ writes comments in html
 
 QCC
-
+- We should try to keep html code as clean as possible
