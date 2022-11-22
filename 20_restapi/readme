@@ -1,0 +1,5 @@
+DISCO:
+
+- .json() to take a request and transform its data into a json
+- Accessing a json is basically like accessing a python dictionary
+- <img src = "" > is for showing images on html
