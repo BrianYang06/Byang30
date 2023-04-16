@@ -1,11 +1,12 @@
 Team Peanut Butter :: Prattay Dey, Brian Yang
 SoftDev pd07
 K27 -- Building Castles in the Sand
-2023-04-16
+2023-04-16s
 
 DISCO
 -----------------------------------------------------------------
 * You can write "var x = function(){}" and call x() that function
+* DOM visualizers allow you to see your html files like a tree 
 =================================================================
 
 QCC

@@ -1,7 +1,7 @@
 //Team Peanut Butter :: Prattay Dey, Brian Yang
 //SoftDev pd07
 //K27 -- Building Castles in the Sand
-//2023-04-16
+//2023-04-16s
 
 
 //send diagnostic output to console
@@ -88,13 +88,23 @@ var fact = function(n){
 }
 
 var gcd = function(a,b){
-  if
+  if(b == 0){
+    return a;
+  }else{
+    return gcd(b, a % b);
+  }
 }
+
+console.log(fib(5));
+console.log(fact(5));
+console.log(gcd(20, 5));
 
 // In addition to the style shown above,
 //  you are encouraged to test drive the "arrow function syntax" as shown below.
 //  Note anything notable.
 const myFxn = (param1, param2) => {
   // body
-  return retVal;
+  return param1;
 };
+//function is called is myFxn 
+ //param1 and param2 are the params and the arrow points to the function
