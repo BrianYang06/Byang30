@@ -95,6 +95,19 @@ var gcd = function(a,b){
   }
 }
 
+var addFib = function(number){
+  addItem(fib(number))
+}
+
+var addFact = function(number){
+  addItem(fact(number))
+}
+
+var addGcd = function(number){
+  var ans = gcd(number)
+  addItem(ans)
+}
+
 console.log(fib(5));
 console.log(fact(5));
 console.log(gcd(20, 5));
@@ -106,5 +119,5 @@ const myFxn = (param1, param2) => {
   // body
   return param1;
 };
-//function is called is myFxn 
+//function is called is myFxn
  //param1 and param2 are the params and the arrow points to the function
