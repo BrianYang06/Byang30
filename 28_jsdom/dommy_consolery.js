@@ -88,11 +88,10 @@ var fact = function(n){
 }
 
 var gcd = function(a,b){
-  if(b == 0){
-    return a;
-  }else{
-    return gcd(b, a % b);
-  }
+  if (a % b === 0){
+     return b;
+   }
+   return gcd(b, a%b);
 }
 
 var addFib = function(number){
@@ -103,8 +102,8 @@ var addFact = function(number){
   addItem(fact(number))
 }
 
-var addGcd = function(number){
-  var ans = gcd(number)
+var addGcd = function(num1, num2){
+  var ans = gcd(num1, num2)
   addItem(ans)
 }
 
