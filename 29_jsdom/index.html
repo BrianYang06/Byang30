@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!--
+    Team Peanut Butter :: Prattay Dey, Brian Yang
+    SoftDev pd07
+    K29 -- DOMfoolery++
+    2023-04-20
+
+-->
+
+<html lang="en">
+  <!-- HTML file for exploring JavaScript interactions with the DOM -->
+
+  <head>
+    <meta charset="utf-8">
+    <style>
+      .red   {color : #ff0000;}
+      .green {color : #00ff00;}
+      .blue  {color : #0000ff;}
+    </style>
+  </head>
+
+  <body>
+    <h1 id="h" class="blue">Hello World!</h1>
+
+    <div id="div1" class="green">This is a div</div>
+    <div id="div2">This is a second div</div>
+    <div class="blue">This is a toid div</div>
+
+    <ol id="thelist">
+      <li class="">item 0</li>
+      <li class="green blue">item 1</li>
+      <li class="green blue">item 2</li>
+      <li class="red green blue">item 3</li>
+      <li class="red green blue">item 4</li>
+      <li class="green blue">item 5</li>
+      <li class="green blue">item 6</li>
+      <li class="">item 7</li>
+    </ol>
+
+	
+	<button onclick="addFib(5)">FIB(5)</button>
+	<button onclick="addFact(5)">FACT(5)</button>
+	<button onclick="addGcd(50,5)">GCD(50,5)</button>
+
+    <script src="dommy_consolery.js">
+    </script>
+
+    <script>
+      addFib(5);
+      addFact(5);
+      addGcd(50, 5);
+    </script>
+
+  </body>
+</html>
