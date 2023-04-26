@@ -1,0 +1,11 @@
+Team PeanutButter: Prattay Dey, Brian Yang
+SoftDev pd07
+K32 -- JSanim
+2023-04-26
+
+
+DISCO:
+- Making the velocity greater than 1 may result in velocity not changing when hitting the edge of the canvas
+
+QCC:
+- What framerate does the canvas run on
