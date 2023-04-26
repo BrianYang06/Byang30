@@ -41,8 +41,9 @@ var drawDot = () => {
   }else{
     if (radius == 0){
       growing = true;
+    }else{
+      radius -= 1;
     }
-    radius -= 1;
   }
 }
 
