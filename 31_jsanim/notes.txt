@@ -1,0 +1,12 @@
+Team Cookielol:: Vanch, Brian Yang
+SoftDev pd07
+K31 -- JSanim
+2023-04-25
+
+DISCO
+- cancelAnimationFrame takes in an param that is returned by requestAnimationFrame
+- c.width / c.height can be used to find height/width of canvas
+- if you dont have cancelAnimationFrame in the start of drawDot then clicking the anim button will result in the anim speeding up
+
+QCC
+- What exactly does requestID return?
